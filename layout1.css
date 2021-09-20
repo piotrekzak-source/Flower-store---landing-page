@@ -1,0 +1,211 @@
+/*stylizacja głownych sekcji  nagłowek,menu, przycisk logowania, dodanie czcionek, dodanie gradientu tła*/
+.menu {
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+
+    display: inline-block;
+    margin: 20px;
+}
+
+nav ul li a:hover {
+
+    color: skyblue;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+
+}
+
+/*stylizacja przycisku logowania*/
+button {
+
+    padding: 9px 25px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 03.s ease 0s;
+    font-size:16px;
+
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+
+
+}
+
+.naglowek {
+
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*stylizacja głównego napisu tytułowego i zdjęcia oraz przycisku czytaj wiecej*/
+.rzedy {
+
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.kol-2 {
+
+    flex-basis: 50%;
+    max-width: 425px;
+}
+
+.kol-2 img {
+
+    width: 400px;
+    height: 600px;
+    padding: 50px 0;
+    border-radius: 20%;
+
+
+}
+
+.kol-2 h1 {
+
+    font-size: 40px;
+    line-height: 50px;
+    margin: 25px 0;
+
+}
+
+.btn {
+
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+
+}
+
+.header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+
+.header .rzedy {
+
+    margin-top: 70px;
+
+}
+
+/*stylizacja środkowych zdjęć z roślinami*/
+.kategorie {
+
+    margin: 70px 0;
+}
+
+.kol-3 {
+
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.kol-3 img {
+
+    max-width: 100%;
+}
+
+/*stylizacja galerii produktów do sprzedaży rośliny z ceną*/
+.galeria {
+
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.kol-4 {
+
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.kol-4 img {
+
+    width: 100%;
+
+}
+
+.kol-4 h3 {
+
+    text-align: center;
+}
+
+.kol-4 p {
+
+    text-align: center;
+}
+
+/*stylizacja napisu nad galerią produktów*/
+.title {
+
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.kol-4:hover {
+    transform: translateY(-5px);
+}
+
+/*stopka*/
+
+
+.kontener {
+    text-align: center;
+
+}
+
